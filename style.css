@@ -1,0 +1,23 @@
+.dot {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+}
+
+#box {
+  width: 20px;
+  height: 20px;
+  background-color: darkgoldenrod;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.snap {
+  transition: all 200ms ease-in;
+}
